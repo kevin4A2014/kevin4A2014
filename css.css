@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+}
+
+.container {
+    width: 360px;
+    height: 460px;
+    border: 2px solid rgb(240, 90, 4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 60px;
+    transition: all 0.5s;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container:hover {
+    box-shadow: 5px 10px rgb(240, 90, 4);
+}
+
+.h2 {
+    font-size: 22px;
+    transition: all 1s;
+}
+
+.h2:hover {
+    transform: rotateX(180deg);
+}
+
+.img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    transition: all 0.5s;
+}
+.img:hover{
+    box-shadow: 5px 12.5px rgb(9, 240, 143);
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    background: #098fe9;
+    color: white;
+    border-radius: 30px;
+    transition: all 1s;
+    border: transparent;
+}
+
+.button:hover {
+    background: rgb(190, 220, 245);
+    color: rgb(75, 164, 236);
+    box-shadow: 5px 12.5px rgb(75, 164, 236);
+}
+
+.label {
+    color: rgb(230, 65, 15);
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    left: 1270px;
+    height: 680px;
+    background: rgb(75, 164, 236);
+    width: 33px;
+    text-align: center;
+}
+
+.search {
+    position: absolute;
+    left: -126px;
+    width: 80px;
+    top: 17px;
+    border: transparent;
+    background: rgb(107, 183, 235);
+    color: #f2f5f7;
+    width: 130px;
+    height: 25px;
+    border-radius: 30px;
+}
+
+.material-symbols-outlined {
+    margin-top: 15px;
+    transition: all 0.6s;
+}
+.store{
+    width:1300px;
+    height:680px;
+    background: white;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+
+
+.container2 {
+    width: 360px;
+    height: 460px;
+    border: 2px solid rgb(13, 160, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 60px;
+    transition: all 0.5s;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container2:hover {
+    box-shadow: 5px 10px rgb(13, 160, 245);
+}
+
+
+
+
+.container3 {
+    width: 360px;
+    height: 460px;
+    border: 2px solid rgb(243, 210, 20);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 60px;
+    transition: all 0.5s;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container3:hover {
+    box-shadow: 5px 10px rgb(243, 210, 20);
+}
+.shoe{
+    width:1300px;
+    height:680px;
+    background: rgb(143, 183, 236);
+    position:absolute;
+    top:0;
+    left:0;
+
+}
+
+.price{
+    color:#1289d8;
+}
+.num{
+    color:#456174;
+}
